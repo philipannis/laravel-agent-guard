@@ -1,6 +1,6 @@
 # Laravel Agent Guard
 
-Prevent sensitive credentials from leaking to AI agents, editors, and automation tools by moving `.env` values out of your project files and into the macOS keychain. Your app keeps reading environment values normally through `env()`, `$_ENV`, `$_SERVER`, and `getenv()`, while database passwords and sensitive API keys stay out of your workspace.
+Prevent sensitive credentials from leaking to AI agents, editors, and automation tools by moving `.env` values out of your project files and into the macOS keychain. Your app keeps reading environment values normally through `env()`, `$_ENV`, `$_SERVER`, and `getenv()`, while database passwords and API keys stay out of your workspace.
 
 
 
