@@ -21,7 +21,13 @@ Laravel Agent Guard is intended for local development environments. Other operat
 
 ## 📦 Installation
 
-From your Laravel project root, allow the Composer plugin:
+From your Laravel project root, add the package repository to Composer:
+
+```sh
+composer config repositories.laravel-agent-guard vcs https://github.com/philipannis/laravel-agent-guard.git
+```
+
+Allow the Composer plugin:
 
 ```sh
 composer config allow-plugins.philipannis/laravel-agent-guard true
@@ -30,7 +36,7 @@ composer config allow-plugins.philipannis/laravel-agent-guard true
 Then install the package:
 
 ```sh
-composer require --dev philipannis/laravel-agent-guard
+composer require --dev philipannis/laravel-agent-guard:dev-main
 ```
 
 If Composer asks whether you trust this plugin during installation, allow it for your project.
